@@ -1,5 +1,5 @@
 name    'alkivi-mcollective'
-version '0.0.1'
+version '0.0.2'
 source 'https://github.com/alkivi-sas/puppet-mcollective'
 author 'alkivi'
 license 'LGPLv3'

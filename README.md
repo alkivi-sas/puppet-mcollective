@@ -1,30 +1,10 @@
-# SSH Module
+# Mcollective Module
 
-This module will install and configure a ssh server.
+This module will install and configure mcollective
 
 ## Usage
 
-### Minimal server configuration
-
-```puppet
-class { 'ssh': }
-```
-This will do the typical install, configure and service management.
-Default port is 2202
-root login is forbidden by default, so is password authentification
-
-
-### More server configuration
-
-```puppet
-class { 'ssh':
-  $allowed_extra           = [ '127.0.0.1' ],
-  $port                    = 22,
-  $permit_root             = 'yes,
-  $password_authentication = 'yes,
-  $motd                    = true,
-}
-```
+TODO
 
 ## Limitations
 
